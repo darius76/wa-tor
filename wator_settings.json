@@ -1,0 +1,48 @@
+{
+  "simulation_speed": 1.771875,
+  "sliders": {
+    "speed": 1.771875,
+    "fish_skill": 0.228125,
+    "fish_peak": 12,
+    "shark_skill": 0.95625,
+    "shark_peak": 16,
+    "hunger_factor": 1.7906250000000001,
+    "spawn_fish": 7.187499999999999,
+    "spawn_shark": 3.125,
+    "spawn_plant": 3.125,
+    "cols": 25,
+    "rows": 25,
+    "fish_init": 12.0,
+    "shark_init": 6.0,
+    "plant_init": 10.833333333333334
+  },
+  "species": {
+    "fish": {
+      "base_skill": 0.228125,
+      "peak_age_range": [
+        6,
+        12
+      ],
+      "spawn_rate": 7.187499999999999,
+      "hunger_increase_factor": 1.7906250000000001
+    },
+    "shark": {
+      "base_skill": 0.95625,
+      "peak_age_range": [
+        10,
+        16
+      ],
+      "spawn_rate": 3.125,
+      "hunger_increase_factor": 1.7906250000000001
+    },
+    "plant": {
+      "base_skill": 0.95,
+      "peak_age_range": [
+        1,
+        4
+      ],
+      "spawn_rate": 3.125,
+      "hunger_increase_factor": 1.7906250000000001
+    }
+  }
+}
